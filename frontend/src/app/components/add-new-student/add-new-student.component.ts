@@ -20,7 +20,7 @@ export class AddNewStudentComponent implements OnInit {
       id : value.id,
       name : value.name,
       age : value.age,
-      religion : value.religion
+      hometown : value.hometown
     }
 
 
