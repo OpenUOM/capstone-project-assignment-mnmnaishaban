@@ -11,7 +11,7 @@
             <th>Name</th>
             <th>Student ID</th>
             <th>DOB</th>
-            <th>Hometown</th>
+            <th>Religion</th>
             <th style="width: 50px;"></th>
             <th style="width: 50px;"></th>
           </tr>
@@ -19,7 +19,7 @@
             <td>{{student[0].name}}</td>
             <td>{{student[0].id}}</td>
             <td>{{2022 - student[0].age}}</td>
-            <td>{{student[0].hometown}}</td>
+            <td>{{student[0].religion}}</td>
             <td id="student-edit-{{student[0].id}}" (click)="editStudent(student[0].id)" style="text-align: center;"><fa-icon  class="edit-icon" [icon]="faPenSquare"></fa-icon></td>
             <td id="student-delete-{{student[0].id}}" (click)="deleteStudent(student[0].id)" style="text-align: center; color: #FC4F4F;"><fa-icon  class="trash-icon" [icon]="faTrash"></fa-icon></td>
           </tr>
